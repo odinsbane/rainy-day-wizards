@@ -73,7 +73,7 @@ class DefaultScenario extends WizardScenario {
 
 
     public void startScenario(){
-        
+
         app.addWizard(player);
         app.addCutSceneText("You are a wizard with mighty fireballs");
         app.showCutScene();
